@@ -33,13 +33,14 @@ Strategi yang diimplementasikan pada program ini merupakan gabungan dari greedy 
 6. Jalankan file run.bat
 7. Untuk menggunakan visualizer, download dan ekstrak zip visualizer dari https://github.com/dlweatherhead/entelect-challenge-2019-visualiser/releases/tag/v1.0f1, lalu ubah round-state-output-location di game-runner-config.json dengan directory folder Matches dalam folder visualizer yang sudah di ekstrak. Setelah menjalankan run.bat, jalankan entelect-visualiser.exe lalu pilih match yang diinginkan untuk ditampilkan.
 
-.
-├── ...
-├── test                    # Test files (alternatively `spec` or `tests`)
-│   ├── benchmarks          # Load and stress tests
-│   ├── integration         # End-to-end, integration tests (alternatively `e2e`)
-│   └── unit                # Unit tests
-└── ...
+## Directories
+    .
+    ├── doc                             # Documentation files (Laporan tugas besar)
+    ├── src                             # Source files
+    │    ├── frontend                   # Front End (source code untuk tampilan website menggunakan React.JS)
+    │    └── backend/imageProcessing    # Back End (source code untuk kompresi gambar menggunakan python)
+    ├── test                            # Images for testing
+    └── README.md
 
 
 
